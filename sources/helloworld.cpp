@@ -1,9 +1,9 @@
 #include <iostream>
-
-
 using namespace std;
 
 void main()
 {
-cout << "Hello world!" << endl;
+string s;
+cin >> s;
+cout << "Hello world from" << s << endl;
 }
